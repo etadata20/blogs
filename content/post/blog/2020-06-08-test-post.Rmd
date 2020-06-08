@@ -1,0 +1,19 @@
+---
+title: blog section2
+linktitle: blog section2
+author: Lisa
+date: '2020-06-08'
+slug: test-post
+menu:
+  docs:
+    parent: 'blog'
+    weight: 20
+categories:
+  - R
+tags:
+  - R Markdown
+description: ''
+thumbnail: ''
+---
+
+This is a test blog post.

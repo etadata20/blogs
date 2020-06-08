@@ -1,11 +1,11 @@
 ---
-date: "2014-03-10"
-linktitle: Migrating from Jekyll
+date: "2020-06-06"
+linktitle: Home
 menu:
   main:
-    name: Jekyll migration
+    name: Home
     weight: 10
-title: Migrate to Hugo from Jekyll
+title: Hello and Welcome!
 ---
 
 ## Move static content to `static`

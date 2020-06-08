@@ -2,7 +2,7 @@
 categories:
 - Development
 - golang
-date: "2014-04-02"
+date: "2014-06-06"
 menu: main
 tags:
 - go
@@ -11,7 +11,7 @@ tags:
 - themes
 - development
 thumbnail: img/placeholder.png
-title: (Hu)go Template Primer
+title: About
 ---
 
 Hugo uses the excellent [Go][] [html/template][gohtmltemplate] library for

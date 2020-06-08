@@ -1,5 +1,5 @@
 baseurl = "/"
-title = "Mainroad"
+title = "ETA DATA 2.0"
 languageCode = "en-us"
 paginate = "10" # Number of posts per page
 theme = "Mainroad"
@@ -7,21 +7,22 @@ disqusShortname = "" # Enable comments by entering your Disqus shortname
 googleAnalytics = "" # Enable Google Analytics by entering your tracking id
 
 [Author]
-  name = "John Doe"
-  bio = "John Doe's true identity is unknown. Maybe he is a successful blogger or writer. Nobody knows it."
+  name = "etadata20"
+  bio = "Although her true identity maybe unknown, she is a data fanatic, teacher, music enthusiast, thinker and hungry bookworm."
   avatar = "img/myAvatar.png"
 
 [Params]
-  description = "John Doe's Personal blog about everything" # Description of your site
+  description = "etadata's Personal blog about everything" # Description of your site
   opengraph = true
   twitter_cards = false
-  readmore = false # Show "Read more" button in list if true
+  readmore = true # Show "Read more" button in list if true
   authorbox = true
   pager = true
   post_meta = ["date", "categories"] # Order of post meta information
+  sectionPagesMenu = "main"
 
 [Params.logo]
-  subtitle = "Just another site" # Logo subtitle
+  subtitle = "Explore, Think, Analyse Data and Beyond..." # Logo subtitle
 
 [Params.sidebar]
   home = "right"   # Configure layout for home page
@@ -33,3 +34,25 @@ googleAnalytics = "" # Enable Google Analytics by entering your tracking id
 [Params.widgets]
   recent_num = 5 # Set the number of articles in the "Recent articles" widget
   tags_counter = false # Enable counter for each tag in "Tags" widget (disabled by default)
+
+[Params.widgets.social]
+  # Enable parts of social widget
+  # facebook = "username"
+  # twitter = "username"
+  # instagram = "username"
+  # linkedin = "username"
+  #telegram = "username"
+  github = "etadata20"
+  #gitlab = "username"
+  #bitbucket = "username"
+  email = "etadata20@gmail.com"
+
+  
+[menu]
+
+  [[menu.main]]
+    identifier = "blog"
+    name = "Posts"
+    title = "blog section"
+    url = "/"
+    weight = 20
