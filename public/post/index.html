@@ -109,25 +109,6 @@
 </article><article class="list__item post">
 	<header class="list__header">
 		<h3 class="list__title post__title ">
-			<a href="/post/migrate-from-jekyll/" rel="bookmark">
-			Hello and Welcome!
-			</a>
-		</h3>
-		<div class="list__meta meta">
-<div class="meta__item-datetime meta__item">
-	<svg class="meta__icon icon icon-time" width="16" height="14" viewBox="0 0 30 28"><path d="M15 0C7 0 1 6 1 14s6 14 14 14 14-6 14-14S23 0 15 0zm0 25C9 25 4 20 4 14S9 3 15 3s11 5 11 11-5 11-11 11zm1-18h-2v8.4l6.8 4.4L22 18l-6-3.8V7z"/></svg><time class="meta__text" datetime="2020-06-06T00:00:00Z">June 06, 2020</time></div></div>
-	</header>
-	<div class="content list__excerpt post__content clearfix">
-		Move static content to static Jekyll has a rule that any directory not starting with _ will be copied as-is to the _site output. Hugo keeps all static content under static. You should therefore move it all there. With Jekyll, something that looked like
-▾ &lt;root&gt;/▾ images/logo.png should become
-▾ &lt;root&gt;/▾ static/▾ images/logo.png Additionally, you&rsquo;ll want any files that should reside at the root (such as CNAME) to be moved to static.
-	</div>
-	<div class="list__footer clearfix">
-		<a class="list__footer-readmore btn" href="/post/migrate-from-jekyll/">Read more…</a>
-	</div>
-</article><article class="list__item post">
-	<header class="list__header">
-		<h3 class="list__title post__title ">
 			<a href="/post/basic-elements/" rel="bookmark">
 			Basic HTML Elements
 			</a>
@@ -184,35 +165,6 @@ We&rsquo;ll start with creating a new site with a very basic template.
 		<a class="list__footer-readmore btn" href="/post/creating-a-new-theme/">Read more…</a>
 	</div>
 </article><article class="list__item post">
-	<figure class="list__thumbnail">
-		<a href="/post/goisforlovers/">
-			<img src="/img/placeholder.png" alt="About" />
-		</a>
-	</figure>
-	<header class="list__header">
-		<h3 class="list__title post__title ">
-			<a href="/post/goisforlovers/" rel="bookmark">
-			About
-			</a>
-		</h3>
-		<div class="list__meta meta">
-<div class="meta__item-datetime meta__item">
-	<svg class="meta__icon icon icon-time" width="16" height="14" viewBox="0 0 30 28"><path d="M15 0C7 0 1 6 1 14s6 14 14 14 14-6 14-14S23 0 15 0zm0 25C9 25 4 20 4 14S9 3 15 3s11 5 11 11-5 11-11 11zm1-18h-2v8.4l6.8 4.4L22 18l-6-3.8V7z"/></svg><time class="meta__text" datetime="2014-06-06T00:00:00Z">June 06, 2014</time></div><div class="meta__item-categories meta__item"><svg class="meta__icon icon icon-category" width="16" height="16" viewBox="0 0 16 16"><path d="m7 2l1 2h8v11h-16v-13z"/></svg><span class="meta__text"><a class="meta__link" href="/categories/development/" rel="category">Development</a>, <a class="meta__link" href="/categories/golang/" rel="category">golang</a>
-	</span>
-</div></div>
-	</header>
-	<div class="content list__excerpt post__content clearfix">
-		<p>Hugo uses the excellent <a href="https://golang.org/">Go</a> <a href="https://golang.org/pkg/html/template/">html/template</a> library for
-its template engine. It is an extremely lightweight engine that provides a very
-small amount of logic. In our experience that it is just the right amount of
-logic to be able to create a good static website. If you have used other
-template systems from different languages or frameworks you will find a lot of
-similarities in Go templates.</p>
-	</div>
-	<div class="list__footer clearfix">
-		<a class="list__footer-readmore btn" href="/post/goisforlovers/">Read more…</a>
-	</div>
-</article><article class="list__item post">
 	<header class="list__header">
 		<h3 class="list__title post__title ">
 			<a href="/post/hugoisforlovers/" rel="bookmark">
@@ -257,9 +209,9 @@ Follow the following steps:
 		<ul class="widget__list">
 			<li class="widget__item"><a class="widget__link" href="/post/blog/test-post/">blog section2</a></li>
 			<li class="widget__item"><a class="widget__link" href="/post/hello-world/">Hello World!</a></li>
-			<li class="widget__item"><a class="widget__link" href="/post/migrate-from-jekyll/">Hello and Welcome!</a></li>
 			<li class="widget__item"><a class="widget__link" href="/post/basic-elements/">Basic HTML Elements</a></li>
 			<li class="widget__item"><a class="widget__link" href="/post/2015-07-23-r-rmarkdown/">Hello R Markdown</a></li>
+			<li class="widget__item"><a class="widget__link" href="/post/creating-a-new-theme/">Creating a New Theme</a></li>
 		</ul>
 	</div>
 </div>
@@ -296,8 +248,6 @@ Follow the following steps:
 		<a class="widget-taglist__link widget__link btn" href="/tags/r-markdown/" title="R Markdown">R Markdown</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/regression/" title="regression">regression</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/something/" title="something">something</a>
-		<a class="widget-taglist__link widget__link btn" href="/tags/templates/" title="templates">templates</a>
-		<a class="widget-taglist__link widget__link btn" href="/tags/themes/" title="themes">themes</a>
 	</div>
 </div>
 </aside>
